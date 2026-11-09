@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# SQLite database (local state)
+/data/leads.db
+data/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# n8n data (persistent n8n storage)
+/n8n-data/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artefacts
+*.egg-info/
+build/
+dist/
+
+# Misc
+*.bak
+*.tmp
+
